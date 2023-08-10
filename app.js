@@ -5,11 +5,12 @@ var entrada = document.querySelector("input");
 
 var frase = "Está errado!";
 
-function mostra(frase) {
+function mostra() {
     document.write(frase);
-    return frase;
+    return mostra;
+
 }
 
 if (entrada.value !== "0") { 
-    mostra(frase);
+    mostra(onclick);
 }
